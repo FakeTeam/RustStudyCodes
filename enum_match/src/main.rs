@@ -89,7 +89,7 @@ fn main() {
     match_example_without_option();
     match_example_with_option();
     match_example_with_default();
-    match_example_with_Placeholder_();
+    match_example_with_placeholder();
 }
 
 fn match_example_without_option() {
@@ -156,7 +156,7 @@ fn match_example_with_default() {
     }
 }
 
-fn match_example_with_Placeholder_() {
+fn match_example_with_placeholder() {
     let dice_roll = 9;
     match dice_roll {
         3 => add_fancy_hat(),

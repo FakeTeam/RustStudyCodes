@@ -54,6 +54,7 @@ fn rust_check_vector_outof_range() {
     println!("{:?}", item_is_not_exist)
 }
 
+#[allow(unused)]
 fn vector_change_borrow() {
     let mut v = vec![1, 2, 3, 3, 4];
     let first = &v[0];

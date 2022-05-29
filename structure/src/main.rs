@@ -37,6 +37,7 @@ impl Rectangle {
     }
 }
 
+#[allow(unused)]
 fn main() {
     println!("Hello, world!");
     let mut user1 = User {

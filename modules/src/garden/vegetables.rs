@@ -3,6 +3,7 @@ pub struct Asparus {
     pub public: i32,
 }
 
+#[allow(unused)]
 #[derive(Debug)]
 struct PrivateStruct {
     private_data: u8,
